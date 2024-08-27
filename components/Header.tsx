@@ -19,11 +19,7 @@ function Header() {
   return (
     <header className='flex flex-col md:flex-row items-center bg-walmart px-10 py-7 space-x-5'>
       <Link href={"/"} className='mb-5 md:mb-0'>
-        <Image src={"https://links.papareact.com/yur"}
-        alt='Logo'
-        width={150}
-        height={150}
-        />
+        Amazlove
       </Link>
 
       <form onSubmit={handleSubmit} action="" className='flex items-center bg-white rounded-full w-full'>
